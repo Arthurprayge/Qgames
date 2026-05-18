@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QGames - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Q<span>Games</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1>Descubra Seu Perfil Gamer</h1>
+                <p>Responda as perguntas para receber recomendações personalizadas</p>
+            </div>
+
+            <form id="quizForm">
+                <!-- Pergunta 1 -->
+                <div class="question">
+                    <h3>1. Qual seu gênero de jogo favorito?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q1" value="fps" required>
+                            FPS / Tiro (Call of Duty, CS:GO)
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="rpg">
+                            RPG / Aventura (Zelda, Final Fantasy)
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="moba">
+                            MOBA / Estratégia (League of Legends, Dota)
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="sim">
+                            Simulação / Casual (The Sims, Animal Crossing)
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="question">
+                    <h3>2. Quanto tempo você joga por dia?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q2" value="casual" required>
+                            Menos de 1 hora (Casual)
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="moderado">
+                            1-3 horas (Moderado)
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="hardcore">
+                            Mais de 3 horas (Hardcore)
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="question">
+                    <h3>3. Você prefere jogar sozinho ou com amigos?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q3" value="solo" required>
+                            Solo - Prefiro jogar sozinho
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="multiplayer">
+                            Multiplayer - Com amigos online
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="ambos">
+                            Ambos - Depende do jogo
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Pergunta 4 -->
+                <div class="question">
+                    <h3>4. Qual sua plataforma principal?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q4" value="pc" required>
+                            PC
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q4" value="console">
+                            Console (PlayStation, Xbox, Nintendo)
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q4" value="mobile">
+                            Mobile (Celular/Tablet)
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Pergunta 5 -->
+                <div class="question">
+                    <h3>5. O que é mais importante em um jogo?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q5" value="historia" required>
+                            História e narrativa envolvente
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="grafico">
+                            Gráficos e visual
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="competitivo">
+                            Competitividade e ranking
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="relaxante">
+                            Ser relaxante e divertido
+                        </label>
+                    </div>
+                </div>
+
+                <div class="quiz-navigation">
+                    <button type="submit" class="btn">Ver Resultados</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 QGames - Todos os direitos reservados</p>
+    </footer>
