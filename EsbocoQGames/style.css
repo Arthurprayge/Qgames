@@ -1,0 +1,13 @@
+.navbar-brand{
+    color: #fff !important;
+    font-size: 2rem;
+}
+
+.nav-link{
+    margin-right: 30px;
+    color: #fff !important;
+}
+
+.navbar-toggler-icon{
+    color: #fff !important;
+}
