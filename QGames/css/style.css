@@ -1,0 +1,238 @@
+body{
+  background-image: url('caminho/para/sua/imagem-hd.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #1a1a1a;
+}
+
+.QG{
+    height: 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #00d9ff;
+}
+
+.navbar-brand{
+    color: #AA3A18 !important;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-right: 35px;
+}
+
+.nav-link{
+    margin-right: 50px;
+    color: #AA3A18 !important;
+    font-weight: 700;
+}
+
+.navbar-toggler{
+    color: #AA3A18 !important;
+    background-color: #AA3A18 !important;
+}
+
+.d-flex{
+    font-weight: 700;
+    color: #AA3A18 !important;
+}
+
+a.btn{
+    font-weight: 700;
+    color: #AA3A18 !important;
+    border-color: transparent !important;
+    border: solid 2px #AA3A18 !important;
+    transition: 0.3s;
+}
+
+a.btn:hover{
+    background-color: #AA3A18 !important;
+    color: #fff !important;
+    border: solid 2px #ffffff !important;
+}
+
+.imagem-fundo {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+main.conteudo-site {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+}
+
+ol{
+    color: #ffffff;
+}
+
+a.btn-newquiz{
+  font-weight: 700;
+  font-size: 35px;
+    color: #fff;
+    border-color: transparent;
+    border: solid 5px #fff;
+    border-radius: 30px;
+    transition: 0.3s; 
+    margin: 50px;
+    padding: 10px;
+    background-color: #3B6EBC;
+
+}
+
+a.btn-newquiz:hover{
+    background-color: #fff;
+    color: #3B6EBC;
+    border: solid 5px #3B6EBC;
+}
+
+.campo-quiz{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.quizpronto{
+    width: 700px;
+    height: 70px;
+    background: #151515;
+    border: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ponto{
+    width: 12px;
+    height: 12px;
+    background: #00ff00;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00ff00;
+}
+
+.quizincompleto{
+    width: 700px;
+    height: 70px;
+    background: #151515;
+    border: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.status-incompleto{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ponto-alert{
+    width: 12px;
+    height: 12px;
+    background: #ffff00;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ffff00;
+}
+
+.quiznaoiniciado{
+    width: 700px;
+    height: 70px;
+    background: #151515;
+    border: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.status-vazio{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ponto-alertred{
+    width: 12px;
+    height: 12px;
+    background: #ff0000;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ff0000;
+}
+
+.rodape{
+    background-color: #000000;
+    padding-bottom: 100px;
+}
+
+.camp-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+}
+
+.infos{
+    font-weight: 700px;
+    display: flex;
+    padding-right: 40px;
+    color: #ffffff;
+
+}
+
+.company{
+    padding-right: 80px;
+    padding-left: 30px;
+}
+
+.link-info{
+    color: #00d9ff;
+    transition: 0.3s;
+}
+
+.link-info:hover{
+    color: #ffffff !important;
+}
+
+
+
+
+
