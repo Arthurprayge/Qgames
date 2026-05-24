@@ -1,53 +1,59 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo:wght@400;700&display=swap">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/quizstyle.css">
-    <title>QGames-quiz</title>
-  </head>
-  <body>
-    <header>
-    <nav>
-        <nav class="navbar navbar-expand-lg bg-black">
-    <div class="container-fluid">
-    <img class="QG" src="img/logoname.jpeg" alt="">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Biblioteca</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search"></form>
-        <a class="btn btn-outline" href="login.html" type="submit">Login</a>
-      </form>
-    </div>
-  </div>
-</nav>
-    </nav>
-    </header>
-    
-    <img src="img/image (1).png" class="imagem-fundo" alt="Background">
 
-    <main class="conteudo-site">
-      <div class="campo-quiz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo:wght@400;700&display=swap">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/quizstyle.css">
+  <title>QGames-quiz</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <img class="QG" src="img/logoname.jpeg" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="biblioteca.html">Biblioteca</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search"></form>
+            <a class="btn btn-outline" href="login.html" type="submit">Login</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </nav>
+  </header>
+
+  <img src="img/image (1).png" class="imagem-fundo" alt="Background">
+
+  <main class="conteudo-site">
+    <div class="campo-quiz">
       <div class="criar-quiz">
-      <a type="button" href="quiz.html" class="btn-newquiz btn-outline-primary" href="quiz.html">Iniciar novo quiz+</a>
+        <a type="button" href="quiz.html" class="btn-newquiz btn-outline-primary" href="quiz.html">Iniciar novo
+          quiz+</a>
       </div>
       <br>
       <ol class="pasta-quizes">
         <h5>Quizes Prontos:</h5>
         <li>
           <button class="quizpronto">
-          <span>Quiz para ferias</span>
+            <span>Quiz para férias</span>
             <div class="status">
               <span class="ponto"></span>
               <span>Completo</span>
@@ -57,20 +63,20 @@
         <br>
       </ol>
       <ol>
-        <h5>Quizes imcompletos:</h5>
+        <h5>Quizes incompletos:</h5>
         <li>
           <button class="quizincompleto">
-          <span>Quiz(1)</span>
+            <span>Quiz (1)</span>
             <div class="status-incompleto">
               <span class="ponto-alert"></span>
-              <span>Imcompleto</span>
+              <span>Incompleto</span>
             </div>
           </button>
         </li>
         <br>
         <li>
           <button class="quiznaoiniciado">
-          <span>Quiz(2)</span>
+            <span>Quiz (2)</span>
             <div class="status-vazio">
               <span class="ponto-alertred"></span>
               <span>Não iniciado</span>
@@ -78,49 +84,52 @@
           </button>
         </li>
       </ol>
-      </div>
-    
-    </main>
-    
-    <footer>
-      <div class="rodape">
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="rodape">
       <div class="camp-log">
-          <img class="logo" src="img/logo.jpeg" alt="">
+        <img class="logo" src="img/logo.jpeg" alt="">
       </div>
       <br>
       <div class="infos">
-      <div class="company">
+        <div class="company">
           <h5>COMPANY</h5>
           <ul class="outros1">
             <li class="sobrenos">
-            <a href="#" class="link-info">Sobre nós</a>
+              <a href="#" class="link-info">Sobre nós</a>
             </li>
             <li class="sobrenos">
-            <a href="#" class="link-info">Garanta cupons</a>
+              <a href="#" class="link-info">Garanta cupons</a>
             </li>
             <li class="sobrenos">
-            <a href="#" class="link-info">Info link</a>
+              <a href="#" class="link-info">Info link</a>
             </li>
           </ul>
-      </div>
-      <div class="legal">
+        </div>
+        <div class="legal">
           <h5>LEGAL</h5>
           <ul class="outros2">
             <li class="sobrenos">
-            <a href="#" class="link-info">Politicas de Privacidade</a>
+              <a href="#" class="link-info">Politicas de Privacidade</a>
             </li>
             <li class="sobrenos">
-            <a href="#" class="link-info">Politicas de Coockies</a>
+              <a href="#" class="link-info">Politicas de Coockies</a>
             </li>
             <li class="sobrenos">
-            <a href="#" class="link-info">Feedback</a>
+              <a href="#" class="link-info">Feedback</a>
             </li>
           </ul>
+        </div>
       </div>
-      </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -29,7 +29,7 @@ a{
 
 .cor-texto {
     font-size: 1.5rem;
-    font-family: "Press Start 2P", sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     color: #FFFFFF;
     line-height: 1.8;
     max-width: 900px;
@@ -37,7 +37,7 @@ a{
 }
 
 .cor-titulo {
-    font-family: "Press Start 2P", sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     min-height: 15vh;
     color: #FFFFFF;
     font-size: 2rem;

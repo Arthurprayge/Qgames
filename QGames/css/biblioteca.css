@@ -90,6 +90,11 @@ ol{
     color: #ffffff;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+}
+
 a.btn-newquiz{
   font-weight: 700;
   font-size: 35px;
@@ -119,20 +124,6 @@ a.btn-newquiz:hover{
 }
 
 .quizpronto{
-    width: 700px;
-    height: 70px;
-    background: #151515;
-    border: none;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 0 25px;
-    border-radius: 10px;
-    color: white;
-    font-size: 22px;
-}
-
-.lista-vazia{
     width: 700px;
     height: 70px;
     background: #151515;

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P:wght@400;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/biblioteca.css">
+    <title>Biblioteca</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                    <img class="QG" src="img/logoname.jpeg" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="paginaQuiz.html">Pagina Inicial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="biblioteca.html">Biblioteca</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search"></form>
+                        <a class="btn btn-outline" href="login.html" type="submit">Login</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </header>
+
+    <img src="img/image (1).png" class="imagem-fundo" alt="Background">
+
+
+    <main class="main biblioteca">
+        <div class="campo-quiz text-center">
+            <div class="criar-quiz">
+            </div>
+            <br>
+            <ol class="pasta-quizes">
+                <h5>Jogos Jogados:</h5>
+                <li>
+                    <button class="quizpronto">
+                        <span>Super Mario World</span>
+                        <div class="status">
+                        </div>
+                    </button>
+                </li>
+                <br>
+            </ol>
+            <ol>
+                <h5>Jogos para jogar:</h5>
+                <li>
+                    <button class="quizincompleto">
+                        <span>Sonic CD</span>
+                        <div class="status-incompleto">
+                        </div>
+                    </button>
+                </li>
+                <br>
+                <li>
+                    <button class="quiznaoiniciado">
+                        <span>Mario Kart World</span>
+                        <div class="status-vazio">
+                        </div>
+                    </button>
+                </li>
+                <br>
+            </ol>
+            <ol>
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h5 style="margin: 0;">Favoritos:</h5>
+                    <a class="btn btn-outline" href="#" style="padding: 5px 15px; font-size: 14px;">Adicionar Favorito</a>
+                </div>
+                <li>
+                    <button class="quizpronto">
+                        <span>God of War Ragnarök</span>
+                        <div class="status-incompleto">
+                        </div>
+                    </button>
+                </li>
+            </ol>
+            <ol>
+                <br>
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h5 style="margin: 0;">Lista de Desejos:</h5>
+                    <a class="btn btn-outline" href="#" style="padding: 5px 15px; font-size: 14px;">Adicionar Desejo</a>
+                </div>
+                <li>
+                    <button class="quizpronto">
+                        <span>Ultimate Chicken Horse</span>
+                        <div class="status-incompleto">
+                        </div>
+                    </button>
+                </li>
+            </ol>
+            <ol>
+                <br>
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <h5 style="margin: 0;">Carrinho:</h5>
+                    <a class="btn btn-outline" href="#" style="padding: 5px 15px; font-size: 14px;">Adicionar ao Carrinho</a>
+                </div>
+
+                <li>
+                    <button class="quizpronto">
+                        <span>Nenhum Jogo Adicionado</span>
+                        <div class="status-incompleto">
+                        </div>
+                    </button>
+                </li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="camp-log">
+                <img class="logo" src="img/logo.jpeg" alt="">
+            </div>
+            <br>
+            <div class="infos">
+                <div class="company">
+                    <h5>COMPANY</h5>
+                    <ul class="outros1">
+                        <li class="sobrenos">
+                            <a href="#" class="link-info">Sobre nós</a>
+                        </li>
+                        <li class="sobrenos">
+                            <a href="#" class="link-info">Garanta cupons</a>
+                        </li>
+                        <li class="sobrenos">
+                            <a href="#" class="link-info">Info link</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="legal">
+                    <h5>LEGAL</h5>
+                    <ul class="outros2">
+                        <li class="sobrenos">
+                            <a href="#" class="link-info">Politicas de Privacidade</a>
+                        </li>
+                        <li class="sobrenos">
+                            <a href="#" class="link-info">Politicas de Coockies</a>
+                        </li>
+                        <li class="sobrenos">
+                            <a href="#" class="link-info">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
