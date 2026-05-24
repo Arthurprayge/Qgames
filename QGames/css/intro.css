@@ -1,5 +1,5 @@
 body {
-    background-color: #2B2B2B;
+    background-image: linear-gradient(to right,rgb(51, 3, 97), rgb(64, 1, 83));
     margin: 0;
     min-height: 50vh;
     display: flex;
@@ -8,8 +8,24 @@ body {
     align-items: center;
     text-align: center;
     padding: 1rem;
-    font-family: "Press Start 2P", sans-serif;
 }
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #00d9ff;
+}
+
 
 .cor-texto {
     font-size: 1.5rem;
@@ -21,6 +37,7 @@ body {
 }
 
 .cor-titulo {
+    font-family: "Press Start 2P", sans-serif;
     min-height: 15vh;
     color: #FFFFFF;
     font-size: 2rem;
@@ -28,15 +45,34 @@ body {
     margin-bottom: 1rem;
 }
 
-.ptlogin {
-    margin-top: 3rem;
-    padding: 1rem 5rem;
-    border: none;
-    background-color: #505050;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-size: 2rem;
+.ptlogin{
+    display: flex;
 }
+
+a.btn-login{
+  font-weight: 700;
+  font-size: 35px;
+    color: #fff;
+    border-color: transparent;
+    border: solid 5px #fff;
+    border-radius: 30px;
+    transition: 0.3s; 
+    margin: 50px;
+    padding: 10px;
+    background-color: #3B6EBC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+a.btn-login:hover{
+    background-color: #fff;
+    color: #3B6EBC;
+    border: solid 5px #3B6EBC;
+}
+
 
 .centralizado {
     max-width: 300px;
