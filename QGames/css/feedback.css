@@ -1,174 +1,187 @@
 /* ======================================== */
-/* FEEDBACK */
+/* BODY */
 /* ======================================== */
 
-.tela-feedback{
-    width: 100%;
-    min-height: 100vh;
+body{
+    background-color: #1f1f1f;
 
-    background-color: #2a2a2a;
+    font-family: "Baloo", sans-serif;
 
-    padding: 20px;
+    overflow-x: hidden;
+
+    position: relative;
 }
 
 /* ======================================== */
 /* NAVBAR */
 /* ======================================== */
 
-.navbar-feedback{
-    width: 100%;
-    height: 90px;
-
-    background-color: black;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 0 20px;
-
-    margin-bottom: 20px;
-}
-
-/* ======================================== */
-/* LOGO */
-/* ======================================== */
-
-.logo-feedback{
-    display: flex;
-    align-items: center;
-
-    gap: 15px;
-}
-
-.btn-menu-feedback{
-    width: 45px;
-    height: 45px;
-
-    background-color: #c74d1d;
-
-    border: none;
-
-    color: black;
-
-    font-size: 24px;
-}
-
-.logo-feedback h1{
-    color: white;
-
-    font-size: 55px;
-    font-weight: bold;
-
-    margin: 0;
-}
-
-/* ======================================== */
-/* USUÁRIO */
-/* ======================================== */
-
-.usuario-feedback-topo{
-    width: 55px;
-    height: 55px;
-
-    border: 3px solid #c74d1d;
-
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: #c74d1d;
-
-    font-size: 24px;
-}
-
-/* ======================================== */
-/* CONTEÚDO */
-/* ======================================== */
-
-.conteudo-feedback{
-    width: 100%;
-    min-height: 700px;
-
-    border: 2px solid #009dff;
+.navbar{
+    z-index: 10;
 
     position: relative;
+}
 
-    padding: 60px 40px;
+/* ======================================== */
+/* LOGO NAVBAR */
+/* ======================================== */
 
-    overflow: hidden;
+.logo-qgames{
+    display: flex;
+    align-items: center;
+}
+
+.QG{
+    width: 70px;
+    height: 70px;
+
+    object-fit: cover;
+}
+
+/* ======================================== */
+/* LINKS */
+/* ======================================== */
+
+.nav-link{
+    color: #ff5a1f !important;
+
+    font-size: 20px;
+
+    margin-left: 30px;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+/* ======================================== */
+/* BOTÃO LOGIN */
+/* ======================================== */
+
+.btn-outline{
+    border: 2px solid #ff5a1f;
+
+    color: #ff5a1f;
+
+    font-weight: bold;
+}
+
+.btn-outline:hover{
+    background-color: #ff5a1f;
+
+    color: white;
 }
 
 /* ======================================== */
 /* IMAGEM FUNDO */
 /* ======================================== */
 
-.fundo-feedback{
-    position: absolute;
+.imagem-fundo{
+    width: 100%;
+    height: 100vh;
 
-    inset: 0;
+    object-fit: cover;
 
-    background-image: url("../img/fundo-feedback.png");
+    position: fixed;
 
-    /*
-    TROQUE O NOME DEPOIS
-    */
-
-    background-size: cover;
-    background-position: center;
+    top: 0;
+    left: 0;
 
     opacity: 0.18;
 
-    z-index: 1;
+    z-index: -1;
 }
 
 /* ======================================== */
-/* CARD AVALIAÇÃO */
+/* MAIN */
 /* ======================================== */
 
-.card-avaliacao{
+.feedback-main{
     width: 100%;
-    max-width: 700px;
 
-    min-height: 80px;
+    min-height: 100vh;
 
-    background-color: rgba(0,0,0,0.88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px 20px;
+}
+
+/* ======================================== */
+/* CARD */
+/* ======================================== */
+
+.quiz-box{
+    width: 100%;
+    max-width: 750px;
+
+    background-color: black;
 
     border-radius: 25px;
 
-    margin: 0 auto 50px auto;
+    padding: 40px;
 
-    padding: 0 35px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+/* ======================================== */
+/* TÍTULO */
+/* ======================================== */
+
+.quiz-box h1{
+    color: white;
+
+    font-size: 55px;
+
+    margin-bottom: 40px;
+}
+
+/* ======================================== */
+/* AVALIAÇÃO */
+/* ======================================== */
+
+.avaliacao-box{
+    width: 100%;
+
+    background-color: #2d2d2d;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    margin-bottom: 35px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    position: relative;
-    z-index: 2;
+    flex-wrap: wrap;
+
+    gap: 20px;
 }
 
-.card-avaliacao p{
+.avaliacao-box label{
     color: white;
 
-    font-size: 34px;
-
-    margin: 0;
+    font-size: 25px;
 }
 
-.card-avaliacao select{
+.avaliacao-box select{
     width: 120px;
-    height: 45px;
+    height: 50px;
 
-    background: transparent;
+    background-color: #8f8787;
 
     border: none;
 
+    border-radius: 10px;
+
     color: white;
 
-    font-size: 28px;
+    font-size: 20px;
+
+    text-align: center;
 
     outline: none;
 }
@@ -177,72 +190,154 @@
 /* TEXTAREA */
 /* ======================================== */
 
-.conteudo-feedback textarea{
+.comentario-box textarea{
     width: 100%;
-    max-width: 700px;
+    height: 280px;
 
-    height: 350px;
-
-    background-color: rgba(0,0,0,0.88);
+    background-color: #2d2d2d;
 
     border: none;
 
-    border-radius: 30px;
+    border-radius: 15px;
 
-    display: block;
-
-    margin: auto;
-
-    padding: 30px;
+    padding: 25px;
 
     color: white;
 
-    font-size: 24px;
+    font-size: 20px;
 
     resize: none;
 
     outline: none;
 
-    position: relative;
-    z-index: 2;
+    margin-bottom: 30px;
 }
 
-.conteudo-feedback textarea::placeholder{
-    color: #bdbdbd;
+.comentario-box textarea::placeholder{
+    color: #c2c2c2;
+}
+
+/* ======================================== */
+/* PUBLICAR */
+/* ======================================== */
+
+.publicar-box{
+    margin-bottom: 35px;
+}
+
+.publicar-box label{
+    color: white;
+
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.publicar-box input{
+    width: 18px;
+    height: 18px;
 }
 
 /* ======================================== */
 /* BOTÃO */
 /* ======================================== */
 
-.btn-enviar-feedback{
-    width: 350px;
+.btn-enviar{
+    width: 100%;
     height: 65px;
-
-    background-color: #3f6dbd;
 
     border: none;
 
-    border-radius: 20px;
+    border-radius: 15px;
+
+    background-color: #8f8787;
 
     color: white;
 
-    font-size: 28px;
-
-    display: block;
-
-    margin: 40px auto 0 auto;
-
-    position: relative;
-    z-index: 2;
+    font-size: 25px;
 
     transition: 0.3s;
 }
 
-.btn-enviar-feedback:hover{
-    background-color: #5688df;
+.btn-enviar:hover{
+    background-color: #b4acac;
 
-    transform: scale(1.02);
+    transform: scale(1.01);
+}
+
+/* ======================================== */
+/* FOOTER */
+/* ======================================== */
+
+.rodape{
+    width: 100%;
+
+    background-color: black;
+
+    padding: 40px;
+
+    margin-top: 80px;
+}
+
+/* ======================================== */
+/* LOGO FOOTER */
+/* ======================================== */
+
+.camp-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 35px;
+}
+
+.logo{
+    width: 85px;
+    height: 85px;
+
+    object-fit: cover;
+}
+
+/* ======================================== */
+/* INFOS */
+/* ======================================== */
+
+.infos{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 120px;
+}
+
+.company h5,
+.legal h5{
+    color: white;
+
+    margin-bottom: 15px;
+}
+
+.outros{
+    list-style: none;
+
+    padding: 0;
+}
+
+.sobrenos{
+    margin-bottom: 10px;
+}
+
+.link-info{
+    color: #00d9ff;
+
+    text-decoration: none;
+}
+
+.link-info:hover{
+    color: white;
 }
 
 /* ======================================== */
@@ -251,34 +346,55 @@
 
 @media(max-width: 768px){
 
-    .card-avaliacao{
+    .quiz-box{
+        padding: 30px;
+    }
+
+    .quiz-box h1{
+        font-size: 40px;
+    }
+
+    .avaliacao-box{
         flex-direction: column;
 
-        gap: 20px;
-
-        padding: 25px;
+        align-items: flex-start;
     }
 
-    .card-avaliacao p{
-        font-size: 24px;
-
-        text-align: center;
+    .avaliacao-box label{
+        font-size: 22px;
     }
 
-    .conteudo-feedback textarea{
-        height: 250px;
+    .comentario-box textarea{
+        height: 220px;
+    }
+
+    .infos{
+        gap: 50px;
     }
 
 }
 
 @media(max-width: 576px){
 
-    .logo-feedback h1{
+    .QG{
+        width: 55px;
+        height: 55px;
+    }
+
+    .quiz-box h1{
         font-size: 32px;
     }
 
-    .btn-enviar-feedback{
-        width: 100%;
+    .btn-enviar{
+        font-size: 22px;
+    }
+
+    .infos{
+        flex-direction: column;
+
+        gap: 30px;
+
+        text-align: center;
     }
 
 }
